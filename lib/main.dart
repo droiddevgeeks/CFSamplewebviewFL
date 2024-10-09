@@ -1,3 +1,4 @@
+import 'package:cfsamplewebviewfl/ui/webview/customwebview.dart';
 import 'package:cfsamplewebviewfl/ui/webview/inappwebview.dart';
 import 'package:flutter/material.dart';
 
@@ -16,9 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Inappwebview(
-          targetUrl:
-              "https://internal.prodint.cashfree.com/checkout?pt=session_SQiIgpk2OYT6P1dLOnoX_tLsuo4yDz9arwtxJJvlrYcYfElbc_7Z_MBfBmAS_jOcGQapVxfhu60una5vAYbNpKO_MZuRSrp9WJbgRiWdHmca"),
+      home: const CustomWebview(targetUrl: "https://discoverpilgrim.com/"),
     );
   }
 }

@@ -45,5 +45,29 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tez</string>
+		<string>gpay</string>
+		<string>paytmmp</string>
+		<string>phonepe</string>
+		<string>bhim</string>
+		<string>credpay</string>
+		<string>amazonpay</string>
+		<string>navipay</string>
+		<string>mobikwik</string>
+		<string>myairtel</string>
+		<string>popclubapp</string>
+		<string>super</string>
+		<string>kiwi</string>
+		<string>simplypayupi</string>
+		<string>whatsapp-consumer</string>
+		<string>tnupi</string>
+		<string>postpe</string>
+		<string>imobile</string>
+		<string>payzapp</string>
+		<string>fpupi</string>
+		<string>snapmint</string>
+	</array>
 </dict>
 </plist>

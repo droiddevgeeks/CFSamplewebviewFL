@@ -41,10 +41,28 @@ class InappwebviewState extends State<Inappwebview> {
           var uri = navigationAction.request.url!;
           if ([
             "upi",
+            "intent",
             "tez",
             "gpay",
             "paytmmp",
             "phonepe",
+            "bhim",
+            "credpay",
+            "amazonpay",
+            "navipay",
+            "mobikwik",
+            "myairtel",
+            "popclubapp",
+            "super",
+            "kiwi",
+            "simplypayupi",
+            "whatsapp-consumer",
+            "tnupi",
+            "postpe",
+            "imobile",
+            "payzapp",
+            "fpupi",
+            "snapmint",
           ].contains(uri.scheme)) {
             print("Opening PSP app");
             await launchUrl(
